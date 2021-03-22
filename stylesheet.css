@@ -1,88 +1,243 @@
-#section {
-    color: #404040;
-    font-weight: normal; 
-    border-bottom: 3px solid #bb1919;
-    display: inline;
-    font-size: 1.25rem;
-    padding-bottom: 2px;
-    margin-top: 8px;
-    margin-bottom: 8px;    
+@font-face {
+font-family: ReithSans;
+src: C:\Windows\Fonts\BBCReithSerif_Rg;
 }
 
+body {
+    margin-left: 15px;
+    margin-right: 5px;
+    text-align: left;
+}
 
 h1 {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 4px;
+    padding-bottom: 0rem;
     color: #3f3f42;
     font-size: 44px;
     font-weight: 500 bolder;
-    margin: 1rem 0px 1.5rem;
-    padding-bottom: 1.5rem;
-    text-align: left;
-    
-    
+    text-align: left; 
 }
 
-.main {
-    width: 660x371,25;
+nav {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 7px;
 }
-
 
 hr {
-    align-items: baseline;
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#first  {
-    font-weight: bold;
-
-}
 p {
+    margin:16px 0px 24 px 16px;
+    padding: 0px 0px 24px 16px;
+    border:0px;
+    text-align:left;
+    line-height: 1.3;    
+    inline-size: 57%;
     font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
     font-size: 16px;
     color: #3f3f42;
-    margin:0px;
-    padding: 6px;
-    border:0px;
+}
+
+button {
+    padding: 12px;
+    background-color: #bb1919;
+    border: 1px solid #bb1919;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(63,63,66);
+    border: 1px solid rgb(63,63,66);
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    padding-top: 7px;
+    padding-bottom: 20px;
+    font-size:1.25rem;
+    font-weight: 500 bold;
+    color: rgb(63,63,66);
+}
+
+footer {
+    width: 70%;
+    border-top: 2px solid #bb1919;
+    border-bottom: 2px solid #bb1919;
+    margin-top: 15px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+.section {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#section {
+    display: in line;
+    padding-top: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px; 
+    border-bottom: 4px solid #bb1919;   
+    color: #3f3f42;
+    font-size: 16px;
+    font-weight: normal; 
+    text-decoration: none;  
+    font-size: 1.25rem;
+}
+
+.france {
+    width: 60%;
+}
+
+.comments {
+    text-decoration: none;
+    color: #bb1919
+}
+
+.comments:hover {
+    text-decoration: underline 1px #bb1919;
+    color: #bb1919
+}
+
+.share {
+    display: inline;
+    float: left;
+    margin-top: -8px;
+    margin-right: 2px;
+}
+
+.coronavirusPandemic {
+    display: inline;
+    margin: 7px 3px 7px 0px;
+    padding: 8px 5px 10px 5px;
+    border: 1px solid rgb(219,127,127);
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(63,63,66);
+    font-weight: bold;
+}
+
+.coronavirusPandemic:hover {
+    background-color: #bb1919;
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#week7, #week7-2 {
+    width: 150px;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding-top: 0px;
+    border: 0px;     
+}
+
+#main, .covid-19 {
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.first  {
+    font-weight: bold;
+}
+
+.blank {
+    color: rgb(63,63,66);   
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+    font-weight: 500 bold; 
+    text-decoration: underline 1px rgb(186,186,186);
     vertical-align:baseline;
-    text-align: left;
-    line-height: 1.6;
-    
+    line-height: 2;
+}
+
+.blank:hover {
+    color: #bb1919;
+    text-decoration: underline 1px #bb1919;
+}
+
+.blankB {
+    vertical-align:baseline;
+    color: rgb(63,63,66);   
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+    font-weight: 500 bolder; 
+    text-decoration: underline 1px rgb(186,186,186); 
+    line-height: 1.3;
+}
+
+.blankB:hover {
+    color: #bb1919;
+    text-decoration: underline 1px #bb1919;
 }
 
 .interviewee {
-overflow:hidden;
-justify-content: center;
-align-items: center;
-width: 100%;
-height: 100%;
-margin: 1rem 0px 1.5rem;
-padding-bottom: 1.5rem;
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 5px;
 }
-
-
 
 .interviewer {
     font-family: ReithSans,Arial,Helvetica,freesans,sans-serif; 
     font-weight: bolder;
 }
 
-ul {
-    color: #696969;   
+.suggestion {
+    font-size: 32px;
+    color: #3f3f42;
+}
+
+.video {
+    display: block;
+    size: 50%;
+    height: 50%;
+    width: 50%;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.relatedTopics a {
+    align-items: center;
+    padding: 12px; 
+    margin-right: 5px;
+    border: 1px solid rgb(219,127,127);
     font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
-    font-size: 16px; 
-    border-bottom: none;
-    text-decoration: underline 1px rgb(186, 186, 186);
-    line-height: 40px; 
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(63,63,66);
+    font-weight: bold;  
 }
 
-a {
-    color: #696969; 
-    text-decoration: underline 1px rgb(186, 186, 186);
-    font-weight: bold;
+.relatedTopics a:hover {
+    align-items: center;
+    padding: 12px; 
+    margin-right: 5px;
+    background-color: #bb1919;
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
     font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;  
 }
 
-a:hover {
-    color: #bb1919;
-    text-decoration: underline 1px #bb1919;
-    font-weight: bold;
-    font-size: 16px;
-}
+
+
