@@ -4,9 +4,9 @@ scr: url (https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=
 }
 
 @font-face {
-    font-family: RobotoSlab700;
-    scr: url ('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
-    }
+font-family: RobotoSlab700;
+scr: url (https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap);
+}
 
 * {
     padding: 0;
@@ -24,31 +24,30 @@ body {
 
 h1 {
     max-width: 50%;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 15px;
     margin-bottom: 4px;
     text-align: left;
-    font-family: RobotoSlab;
+    font-family: RobotoSlab700;
     color: #3f3f42;
-    font-size: 44px;
-    font-weight: bolder;
+    font-size: 45px;
+    font-weight:bolder;
 }
 
 nav {
     display: inline-flexbox;
-    margin-top: 5px;
-    margin-bottom: 7px;
-    padding-bottom: 7px;
+    block-size: 30px;
+    margin-top: 3px;
     padding-top: 5px;
-    margin-left: 15px;
-    padding-left: 15px;
+    margin-left: 5px;
+    padding-left: 5px;
 }
 
 hr {
     width: 70%;
     margin-left: 15px;
     margin-right: 5px;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 20px;
 }
 
@@ -58,10 +57,16 @@ p {
     text-align:left;
     font-family: RobotoSlab;
     color: #3f3f42;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.3;
-    inline-size: 55%;    
+    inline-size: 63%;    
 }
+
+ul {
+    list-style-type: unset;
+    margin-left: 45px;
+}
+
 button {
     padding: 12px;
     background-color: #bb1919;
@@ -104,17 +109,14 @@ footer {
 }
 
 #section {
-    display: in line;
-    padding-top: 6px;
+    padding: 6px;
     margin-top: 8px;
-    margin-bottom: 12px; 
     border-bottom: 4px solid #bb1919; 
     font-family: RobotoSlab;
     color: #3f3f42;
-    font-size: 16px;
-    font-weight: normal; 
+    font-size: 20px;
+    inline-size: auto;
     text-decoration: none;  
-    font-size: 1.25rem;
 }
 
 .france {
@@ -141,7 +143,6 @@ footer {
     margin-top:5px;
     margin-bottom: 3px;
 }
-
 
 .share {
     display: inline;
@@ -186,19 +187,20 @@ footer {
 }
 
 #week7, #week7-2 {
-    width: 150px;
-    margin-top: 0px;
-    margin-left: 15px;
-    padding-top: 0px;
-    border: 0px;     
+    block-size: 30px; 
+    align-content: left;
 }
 
-#main, .covid-19 {
+#main {
     max-width: 70%;
     margin-left: 15px;
     margin-right: 5px;
-    
+}
 
+.covid19 {
+    width: 70%;
+    margin-left: 15px;
+    margin-right: 5px;
 }
 
 .first {
@@ -212,15 +214,14 @@ footer {
     font-weight: bolder;
 }
 
-
 .blank {
-    display: block;
-    list-style: circle;
+    list-style-type:circle;
+    list-style-position: unset;
     margin-top: 10px;
-    margin-left: 18px;
-    color: rgb(63,63,66);   
+    color: rgb(100, 100, 100);   
     font-family: RobotoSlab700;
-    font-weight: bolder; 
+    font-size: 18px;
+    font-weight:bolder; 
     text-decoration: underline 1px rgb(186,186,186);
     line-height: 2;
 }
@@ -231,12 +232,11 @@ footer {
 }
 
 .blankB {
-    vertical-align:baseline;
+    margin-top: 25px;
     color: rgb(63,63,66);   
     font-family: RobotoSlab;
-    font-weight: 500 bolder; 
+    font-weight: bolder; 
     text-decoration: underline 1px rgb(186,186,186); 
-    line-height: 1.3;
 }
 
 .blankB:hover {
@@ -257,19 +257,17 @@ footer {
     font-weight: bolder;
 }
 
-.suggestion {
-    font-size: 32px;
-    color: #3f3f42;
+.iframe {
+    border:lightblue;
+    border-radius: 1px;;
 }
 
 .video {
-    display: block;
-    size: 50%;
-    height: 50%;
-    width: 50%;
+    max-width: 100%;
+    max-width: 100%;
+    height: 100%;
     padding-bottom: 15px;
     margin-bottom: 25px;
-    max-width: 100%;
 }
 
 .relatedTopics a {
